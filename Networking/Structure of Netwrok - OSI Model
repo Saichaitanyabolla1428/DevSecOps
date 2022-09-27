@@ -1,3 +1,5 @@
+#OSI Model:
+
 1.  Application:  
         Its implemented in software.
         It contains Applications (web, browser, etc).
