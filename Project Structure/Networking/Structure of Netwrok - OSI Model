@@ -1,0 +1,46 @@
+1.  Application:  
+        Its implemented in software.
+        It contains Applications (web, browser, etc).
+        This layer facilitates the communication with applications running on other computers.
+        
+2.  Presentation Layer:
+        The presentation layer supports message formatting and encryption.
+        
+        Appliaction Layer passes the data to presentation layer (for example messages in messaging app). And this data will be in words, numbers, etc which will 
+        be converted into machine level language which is binary. Before data get transfered here the data will be encrypted and encoded, so it is only readble 
+        by the person whom it was sent to. It also provides abstraction.
+        
+        Presentation layer thinks that when it is transfered it will be taken care by session layer.
+        Data here will also be compressed so it is easy to transfer.
+ 
+ 3. Session Layer:
+        The session layer manages all phases of a session, including setup, in-process control functions and message takedown, and supports concurrent transmission 
+        of multiple bidirectional messages.
+        
+        Session Layer protocol helps in setting up and managing the connections and it enabled sending and receiving the data followed by termission of the connected 
+        sessions.
+        Authentication, Autherization will be done and session will be created for transfering the data.
+ 
+ 4. Transport Layer:
+        The transport layer facilitates error recovery and reorders data packets that are in the wrong sequence.
+        
+        To make sure the data transfer with protocols UDP and TCP.
+        Data will be segregated into segments(small data units). This segment will contain source and destination port numbers and with sequence number. Sequence 
+        number helps to reassembles the segments in correct order.
+        
+ 5. Network Layer: 
+        The network layer determines how messages move across a network, such as end-to-end movement of data packets using logical addresses.
+        
+        This is where the router lives here. 
+        Function: Logical addressing. Load Balancing, routing protocals happens here.
+        
+ 6. Data link Layer: 
+        The data link layer defines how data is transferred over a connecting link.
+        
+        MAC is a unique, 12-character alphanumeric attribute that is used to identify individual electronic devices on a network. An example of a MAC address 
+        is: 00-B0-D0-63-C2-26.
+        
+ 7. Physical Layer: 
+        In the physical layer, devices such as a local area network or router physically link to a network.
+        
+        Which contains physical stuff like cables and wires.
