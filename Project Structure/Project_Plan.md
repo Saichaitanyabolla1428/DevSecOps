@@ -8,7 +8,7 @@
 4.  CI - Automation with Jenkins
 5.  CD - Automation with Ansible
 6.  DB Creation manually/AWS/Azure
-7.  Creation of ES, Redis, Kafka, Rabbitmq
+7.  Creation of ES, Redis, Kafka, Rabbitmq, Activemq, Services as single + Cluster.
 8.  Ansible Tower for power saver
 9.  Terraform to automate Infras
 10. Vault Integration
